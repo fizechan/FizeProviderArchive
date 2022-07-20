@@ -1,0 +1,30 @@
+{
+  "name": "fize/provider-archive",
+  "description": "统一压缩包管理库",
+  "authors": [
+    {
+      "name": "Fize",
+      "email": "chenfengzhan@qq.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Fize\\Provider\\Archive\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "suggest": {
+    "ext-bz2": "*"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.0"
+  }
+}
